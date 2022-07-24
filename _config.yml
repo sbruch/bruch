@@ -4,7 +4,7 @@ plugins:
 color-scheme: auto
 title: Sebastian Bruch
 description: Staff Research Scientist at Pinecone
-email: sbruch [at] acm [dot] org
+email: sbruch [at] acm [.] org
 show_downloads: false
 
 sidebar:
