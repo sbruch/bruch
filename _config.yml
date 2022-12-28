@@ -1,5 +1,4 @@
 remote_theme: BDHU/minimalist
-logo: /assets/img/headshot.jpg
 plugins:
   - jekyll-remote-theme
 color-scheme: auto
