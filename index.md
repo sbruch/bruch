@@ -7,11 +7,11 @@ resource and energy consumption.
 
 #### Academic Activities
 
-+ I will be co-teaching a graduate course on Algorithms and Learning over Massive Data at Università Ca' Foscari in Venice, Italy in Spring 2023 with Prof. Claudio Lucchese.
-+ I will be co-organizing the second international workshop on Reaching Efficiency in Neural Information Retrieval (ReNeuIR) at SIGIR 2023 with Maria Maistro, Joel Mackenzie, and Franco Maria Nardini. ([Workshop Website](https://reneuir.org/)) 
++ [2023-02] I will be co-teaching a graduate course on Algorithms and Learning over Massive Data at Università Ca' Foscari in Venice, Italy in Spring 2023 with Prof. Claudio Lucchese.
++ [2023-02] I will be co-organizing the second international workshop on Reaching Efficiency in Neural Information Retrieval (ReNeuIR) at SIGIR 2023 with Maria Maistro, Joel Mackenzie, and Franco Maria Nardini. ([Workshop Website](https://reneuir.org/)) 
 
-+ I am co-editing a Special Section on Efficiency in Neural Information Retrieval for the ACM Transactions on Information Systems (TOIS) with Claudio Lucchese, Maria Maistro, and Franco Maria Nardini. [[CfP](https://dl.acm.org/pb-assets/static_journal_pages/tois/pdf/TOIS-SI-EfficiencyNIR-CFP-1659118130873.pdf)]
-+ I co-organized the first international workshop on Reaching Efficiency in Neural Information Retrieval (ReNeuIR) at SIGIR 2022 with Claudio Lucchese and Franco Maria Nardini. ([Workshop Website](https://reneuir.org/))
++ [2022-10] I am co-editing a Special Section on Efficiency in Neural Information Retrieval for the ACM Transactions on Information Systems (TOIS) with Claudio Lucchese, Maria Maistro, and Franco Maria Nardini. [[CfP](https://dl.acm.org/pb-assets/static_journal_pages/tois/pdf/TOIS-SI-EfficiencyNIR-CFP-1659118130873.pdf)]
++ [2022-07] I co-organized the first international workshop on Reaching Efficiency in Neural Information Retrieval (ReNeuIR) at SIGIR 2022 with Claudio Lucchese and Franco Maria Nardini. ([Workshop Website](https://reneuir.org/))
 
 + I have served on the Senior Program Committee for the following conferences:
   + Conference on Web Search and Data Mining (WSDM - Full Paper) 2022–2023
