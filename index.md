@@ -7,8 +7,11 @@ resource and energy consumption.
 
 #### Academic Activities
 
++ I will be co-teaching a graduate course on Algorithms and Learning over Massive Data at Università Ca' Foscari in Venice, Italy in Spring 2023 with Prof. Claudio Lucchese.
++ I will be co-organizing the second international workshop on Reaching Efficiency in Neural Information Retrieval (ReNeuIR) at SIGIR 2023 with Maria Maistro, Joel Mackenzie, and Franco Maria Nardini. ([Workshop Website](https://reneuir.org/)) 
+
 + I am co-editing a Special Section on Efficiency in Neural Information Retrieval for the ACM Transactions on Information Systems (TOIS) with Claudio Lucchese, Maria Maistro, and Franco Maria Nardini. [[CfP](https://dl.acm.org/pb-assets/static_journal_pages/tois/pdf/TOIS-SI-EfficiencyNIR-CFP-1659118130873.pdf)]
-+ I co-organized the first international workshop on Reaching Efficiency in Neural Information Retrieval (ReNeuIR) at SIGIR 2021 with Claudio Lucchese and Franco Maria Nardini. ([Workshop Website](https://reneuir.org/), [Article](https://www.pinecone.io/learn/sigir-2022/))
++ I co-organized the first international workshop on Reaching Efficiency in Neural Information Retrieval (ReNeuIR) at SIGIR 2022 with Claudio Lucchese and Franco Maria Nardini. ([Workshop Website](https://reneuir.org/))
 
 + I have served on the Senior Program Committee for the following conferences:
   + Conference on Web Search and Data Mining (WSDM - Full Paper) 2022–2023
@@ -21,9 +24,9 @@ resource and energy consumption.
   + Conference on Web Search and Data Mining (WSDM - Full Paper) 2020–2021
   + Conference on Web Search and Data Mining (WSDM - Tutorials) 2021
   + Conference on Research and Development in Information Retrieval (SIGIR -
-    Full Paper Track) 2019–2022
+    Full Paper Track) 2019–2023
   + Conference on Research and Development in Information Retrieval (SIGIR -
-    Short Paper Track) 2019–2022
+    Short Paper Track) 2019–2023
   + The Web Conference (WWW - Search Track) 2020–2022
   + Conference on Knowledge Discovery and Data Mining (KDD - Research Track)
     2020–2021
