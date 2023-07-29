@@ -7,15 +7,16 @@ resource and energy consumption.
 
 #### Academic Activities
 
-+ [2023-02] I will be co-organizing the second international workshop on Reaching Efficiency in Neural Information Retrieval (ReNeuIR) at SIGIR 2023 with Maria Maistro, Joel Mackenzie, and Franco Maria Nardini. ([Workshop Website](https://reneuir.org/)) 
++ [10/2022 - Present] I am co-editing the Special Section on Efficiency in Neural Information Retrieval for the ACM Transactions on Information Systems (TOIS) with Claudio Lucchese, Maria Maistro, and Franco Maria Nardini. [[CfP](https://dl.acm.org/pb-assets/static_journal_pages/tois/pdf/TOIS-SI-EfficiencyNIR-CFP-1659118130873.pdf)]
+
++ [2023-02] I co-organized the second international workshop on Reaching Efficiency in Neural Information Retrieval (ReNeuIR) at SIGIR 2023 with Maria Maistro, Joel Mackenzie, and Franco Maria Nardini. ([Workshop Website](https://reneuir.org/)) 
 
 + [2023-02] I co-taught CM0638 on Learning with Massive Data at Università Ca' Foscari in Venice, Italy in Spring 2023 with Prof. Claudio Lucchese.
-+ 
-+ [2022-10] I am co-editing a Special Section on Efficiency in Neural Information Retrieval for the ACM Transactions on Information Systems (TOIS) with Claudio Lucchese, Maria Maistro, and Franco Maria Nardini. [[CfP](https://dl.acm.org/pb-assets/static_journal_pages/tois/pdf/TOIS-SI-EfficiencyNIR-CFP-1659118130873.pdf)]
+
 + [2022-07] I co-organized the first international workshop on Reaching Efficiency in Neural Information Retrieval (ReNeuIR) at SIGIR 2022 with Claudio Lucchese and Franco Maria Nardini. ([Workshop Website](https://reneuir.org/))
 
 + I have served on the Senior Program Committee for the following conferences:
-  + Conference on Web Search and Data Mining (WSDM - Full Paper) 2022–2023
+  + Conference on Web Search and Data Mining (WSDM - Full Paper) 2022–2024
   + Conference on Knowledge Discovery and Data Mining (KDD) 2022
   + The Web Conference (WWW - Search Track) 2023
 
