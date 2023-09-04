@@ -1,11 +1,11 @@
 I am a research scientist at [Pinecone](https://pinecone.io) where I lead the investigation
-of efficient and effective algorithms and probabilistic data structures for constrained Maximum Inner Product Search over dynamic, heterogeneous vectors, as well as learning to rank in vector spaces.
-My research interests also include the theory of stochastic ranking policies
-and a multifaceted study of efficiency, from time and space complexity to
-resource and energy consumption.
+of efficient and effective algorithms and probabilistic data structures for constrained Maximum Inner Product Search over dynamic, hybrid vectors, as well as learning to rank in vector spaces.
+My research interests also include the theory of stochastic ranking policies.
 
 
 #### Academic Activities
+
++ [09/2023] I will be giving a keynote talk at [SPIRE 2023](http://spire2023.isti.cnr.it/keynote-speakers/) in Pisa, Italy.
 
 + [10/2022 - Present] I am co-editing the Special Section on Efficiency in Neural Information Retrieval for the ACM Transactions on Information Systems (TOIS) with Claudio Lucchese, Maria Maistro, and Franco Maria Nardini. [[CfP](https://dl.acm.org/pb-assets/static_journal_pages/tois/pdf/TOIS-SI-EfficiencyNIR-CFP-1659118130873.pdf)]
 
