@@ -5,9 +5,12 @@ My research interests also include the theory of stochastic ranking policies.
 
 #### Academic Activities
 
-+ [09/2023] I will be giving a keynote talk at [SPIRE 2023](http://spire2023.isti.cnr.it/keynote-speakers/) in Pisa, Italy.
++ [2023-10 - 2026-10] I am serving as an Associate Editor on the ACM Transactions
+on Information Systems (TOIS) Editorial Board.
 
-+ [10/2022 - Present] I am co-editing the Special Section on Efficiency in Neural Information Retrieval for the ACM Transactions on Information Systems (TOIS) with Claudio Lucchese, Maria Maistro, and Franco Maria Nardini. [[CfP](https://dl.acm.org/pb-assets/static_journal_pages/tois/pdf/TOIS-SI-EfficiencyNIR-CFP-1659118130873.pdf)]
++ [2022-10 - Present] I am co-editing the Special Section on Efficiency in Neural Information Retrieval for the ACM Transactions on Information Systems (TOIS) with Claudio Lucchese, Maria Maistro, and Franco Maria Nardini. [[CfP](https://dl.acm.org/pb-assets/static_journal_pages/tois/pdf/TOIS-SI-EfficiencyNIR-CFP-1659118130873.pdf)]
+
++ [2023-09] I gave a keynote talk at [SPIRE 2023](http://spire2023.isti.cnr.it/keynote-speakers/) in Pisa, Italy.
 
 + [2023-02] I co-organized the second international workshop on Reaching Efficiency in Neural Information Retrieval (ReNeuIR) at SIGIR 2023 with Maria Maistro, Joel Mackenzie, and Franco Maria Nardini. ([Workshop Website](https://reneuir.org/)) 
 
@@ -21,6 +24,8 @@ My research interests also include the theory of stochastic ranking policies.
   + The Web Conference (WWW - Search Track) 2023
 
 + I have served on the Program Committee for the following conferences:
+  + European Conference on Information Retrieval (ECIR - Full Paper Track)
+    2024
   + European Conference on Information Retrieval (ECIR - Short Paper Track)
     2023
   + Conference on Web Search and Data Mining (WSDM - Full Paper) 2020–2021
