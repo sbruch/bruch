@@ -12,11 +12,11 @@ on Information Systems (TOIS) Editorial Board.
 
 + [2023-09] I gave a keynote talk at [SPIRE 2023](http://spire2023.isti.cnr.it/keynote-speakers/) in Pisa, Italy.
 
-+ [2023-02] I co-organized the second international workshop on Reaching Efficiency in Neural Information Retrieval (ReNeuIR) at SIGIR 2023 with Maria Maistro, Joel Mackenzie, and Franco Maria Nardini. ([Workshop Website](https://reneuir.org/)) 
++ [2023-07] I co-organized the second international workshop on Reaching Efficiency in Neural Information Retrieval (ReNeuIR) at SIGIR 2023 in Taipei, Taiwan, with Maria Maistro, Joel Mackenzie, and Franco Maria Nardini. ([Workshop Website](https://reneuir.org/)) 
 
 + [2023-02] I co-taught CM0638 on Learning with Massive Data at Università Ca' Foscari in Venice, Italy in Spring 2023 with Prof. Claudio Lucchese.
 
-+ [2022-07] I co-organized the first international workshop on Reaching Efficiency in Neural Information Retrieval (ReNeuIR) at SIGIR 2022 with Claudio Lucchese and Franco Maria Nardini. ([Workshop Website](https://reneuir.org/))
++ [2022-07] I co-organized the first international workshop on Reaching Efficiency in Neural Information Retrieval (ReNeuIR) at SIGIR 2022 in Madrid, Spain, with Claudio Lucchese and Franco Maria Nardini. ([Workshop Website](https://reneuir.org/))
 
 + I have served on the Senior Program Committee for the following conferences:
   + Conference on Web Search and Data Mining (WSDM - Full Paper) 2022–2024
