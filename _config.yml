@@ -3,7 +3,7 @@ plugins:
   - jekyll-remote-theme
 color-scheme: auto
 title: Sebastian Bruch
-description: Staff Research Scientist at Pinecone
+description: Principal Scientist at Pinecone
 email: sbruch [at] acm [.] org
 show_downloads: false
 
