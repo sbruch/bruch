@@ -1,5 +1,5 @@
-I am a research scientist at [Pinecone](https://pinecone.io) where I lead the investigation
-of efficient and effective algorithms and probabilistic data structures for constrained Maximum Inner Product Search over dynamic, hybrid vectors, as well as learning to rank in vector spaces.
+I am a Principal Scientist at [Pinecone](https://pinecone.io) where I lead the investigation
+of efficient and effective algorithms and probabilistic data structures for constrained Maximum Inner Product Search over streaming vector collections, as well as learning to rank in vector spaces.
 My research interests also include the theory of stochastic ranking policies.
 
 
@@ -8,7 +8,7 @@ My research interests also include the theory of stochastic ranking policies.
 + [2023-10 - 2026-10] I am serving as an Associate Editor on the ACM Transactions
 on Information Systems (TOIS) Editorial Board.
 
-+ [2022-10 - Present] I am co-editing the Special Section on Efficiency in Neural Information Retrieval for the ACM Transactions on Information Systems (TOIS) with Claudio Lucchese, Maria Maistro, and Franco Maria Nardini. [[CfP](https://dl.acm.org/pb-assets/static_journal_pages/tois/pdf/TOIS-SI-EfficiencyNIR-CFP-1659118130873.pdf)]
++ [2022-10 - 2023-12] I co-edited the Special Section on Efficiency in Neural Information Retrieval for the ACM Transactions on Information Systems (TOIS) with Claudio Lucchese, Maria Maistro, and Franco Maria Nardini. [[CfP](https://dl.acm.org/pb-assets/static_journal_pages/tois/pdf/TOIS-SI-EfficiencyNIR-CFP-1659118130873.pdf)]
 
 + [2023-09] I gave a keynote talk at [SPIRE 2023](http://spire2023.isti.cnr.it/keynote-speakers/) in Pisa, Italy.
 
