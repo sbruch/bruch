@@ -2,14 +2,14 @@ I am a Principal Scientist at [Pinecone](https://pinecone.io) where I lead the i
 of efficient and effective algorithms and probabilistic data structures for constrained Maximum Inner Product Search over streaming vector collections, as well as learning to rank in vector spaces.
 My research interests also include the theory of stochastic ranking policies.
 
-> [!NOTE]   
-> I am thrilled to share that I have published a book on
+
+> **I am thrilled to share that I have published a book on
 > Foundations of Vector Retrieval. It is a monograph devoted
 > to the theoretical foundations of nearest neighbor search,
 > and includes a discussion of key data structures and algorithms
 > from this vast literature. It is available on
 > [arXiv](https://arxiv.org/abs/2401.09350) and
-> as [paperback](https://www.amazon.com/dp/3031551818).
+> as [paperback](https://www.amazon.com/dp/3031551818).**
 
 
 #### Academic Activities
