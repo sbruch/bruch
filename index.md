@@ -9,7 +9,7 @@ My research interests also include the theory of stochastic ranking policies.
 > and includes a discussion of key data structures and algorithms
 > from this vast literature. It is available on
 > [arXiv](https://arxiv.org/abs/2401.09350) and
-> as [paperback](https://www.amazon.com/dp/3031551818).**
+> as [paperback](https://link.springer.com/book/10.1007/978-3-031-55182-6).**
 
 
 #### Academic Activities
