@@ -1,65 +1,57 @@
-{% case site.color-scheme %}
-  {% when "", nil, false, 0, empty %}
-    {% assign ColorScheme = "auto" %}
-  {% else %}
-    {% assign ColorScheme = site.color-scheme %}
-{% endcase %}
+<html>
+<head>
+    <title>{{ page.title }}</title>
+    <meta charset='UTF-8'>
+    <meta content='width=device-width, initial-scale=1' name='viewport'/>
 
-<!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name='keywords' content='{{ page.keywords }}'>
+    <meta name='author' content='Sebastian Bruch'>
 
-    {% seo %}
+    <link href='/css/blog.css' rel='stylesheet'/>
+    <link href='/css/trac.css' rel='stylesheet'/>
+    <link href='/css/markdown.css' rel='stylesheet'/>
 
-    <link rel="stylesheet" href="{{ "/assets/css/colors-ColorScheme.css?v=" | replace: "ColorScheme", ColorScheme | append: site.github.build_revision | relative_url }}">
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    {% include mathjax.html %}
+</head>
+<body>
+  {% include nav.html %}
+    
+  <div class='content'>
+    <div class='front-matter'>
+        <div class='wrap'>
+            <h1>{{ page.title }}</h1>
+            <h4>{{ page.subtitle }}</h4>
+            <div class='bylines'>
+                <div class='byline'>
+                    <h3>Published</h3>
+                    <p>{{ page.date |  date: '%d %B %Y' }}</p>
+		    {% if post %}
+		    {% assign categories = post.categories %}
+		    {% else %}
+		    {% assign categories = page.categories %}
+		    {% endif %}
 
-    <link rel="preload" href="{{site.logo | relative_url}}" as="image">
-    <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <![endif]-->
-    {% include head-custom.html %}
-    </head>
-
-  <body>
-    <div class="wrapper">
-      <div class="sidebar">
-        <header>
-          {% if site.logo %}
-            <img class="img-circle" src="{{site.logo | relative_url}}" alt="Logo">
-          {% endif %}
-
-          {% if site.blank_title %}
-            <h1>{{ site.title | default: site.github.repository_name }}</h1>
-          {% else %}
-            <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
-          {% endif %}
-
-          {% if site.email %}
-            <p class="addr"><i class="fa-regular fa-envelope"></i>&nbsp;{{ site.email }}</p>
-          {% endif %}
-
-          <p>{{ site.description | default: site.github.project_tagline }}</p>
-
-          {% include sidebar.html %}
-
-        </header>
-	{% include links-mobile.html %}
-
-        <div class="sidebar-footer">
+		    {% if categories %}
+		    <p>Tags:
+		    {% for category in categories %}
+		    <a href="{{site.baseurl}}/archive/#{{category|slugize}}">{{category}}</a>
+		    {% unless forloop.last %}|{% endunless %}
+		    {% endfor %}
+		    </p>
+		    {% endif %}
+                </div>
+            </div>
+            <div class='clear'></div>
         </div>
-      </div>
-      <section>
-
-      {{ content }}
-
-      </section>
-      <footer>
-      </footer>
     </div>
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-  </body>
+    <div class='wrap article'>
+        {{ content }}
+    </div>
+    <div id='bibliography'>
+        <div class='wrap'>
+            {% bibliography --cited %}
+        </div>
+    </div>
+</div>
+</body>
 </html>

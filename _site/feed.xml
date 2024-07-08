@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-07-08T14:58:20-04:00</updated><id>http://localhost:4000/feed.xml</id><author><name>Sebastian Bruch</name></author><entry><title type="html">Foundations of Vector Retrieval</title><link href="http://localhost:4000/blog/publications/2024/05/01/foundations-of-vector-retrieval/" rel="alternate" type="text/html" title="Foundations of Vector Retrieval" /><published>2024-05-01T00:00:00-04:00</published><updated>2024-05-01T00:00:00-04:00</updated><id>http://localhost:4000/blog/publications/2024/05/01/foundations-of-vector-retrieval</id><content type="html" xml:base="http://localhost:4000/blog/publications/2024/05/01/foundations-of-vector-retrieval/"><![CDATA[<p>When teaching a graduate course on retrieval algorithms,
+it occurred to me that there was no single resource that covered
+the foundations of vector retrieval or a treatise that dealt with the fascinating
+literature on nearest neighbor search and all the beautiful theory behind it.</p>
+
+<p>So I decided to write one, particularly geared towards graduate students,
+with an emphasis on the theoretical foundations of the field.
+I hope “Foundations of Vector Retrieval” proves a helpful reference,
+one that makes it a bit easier for you
+to pick up this topic, navigate the literature, continue this research, and make new discoveries!</p>
+
+<p>I have made a copy freely available on <a href="https://arxiv.org/abs/2401.09350">arXiv</a>.
+If you prefer a hard copy, you can read it as
+<a href="https://link.springer.com/book/10.1007/978-3-031-55182-6">paperback</a>.
+You can cite the work using the following <code class="highlighter-rouge">bibtex</code> entry:</p>
+<div class="language-bibtex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">@book</span><span class="p">{</span><span class="nl">Bruch_2024</span><span class="p">,</span>
+   <span class="na">title</span><span class="p">=</span><span class="s">{Foundations of Vector Retrieval}</span><span class="p">,</span>
+   <span class="na">ISBN</span><span class="p">=</span><span class="s">{9783031551826}</span><span class="p">,</span>
+   <span class="na">publisher</span><span class="p">=</span><span class="s">{Springer Nature Switzerland}</span><span class="p">,</span>
+   <span class="na">author</span><span class="p">=</span><span class="s">{Bruch, Sebastian}</span><span class="p">,</span>
+   <span class="na">year</span><span class="p">=</span><span class="s">{2024}</span>
+<span class="p">}</span>
+</code></pre></div></div>]]></content><author><name>Sebastian Bruch</name></author><category term="[&quot;Publications&quot;]" /><summary type="html"><![CDATA[When teaching a graduate course on retrieval algorithms, it occurred to me that there was no single resource that covered the foundations of vector retrieval or a treatise that dealt with the fascinating literature on nearest neighbor search and all the beautiful theory behind it.]]></summary></entry></feed>

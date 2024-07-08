@@ -1,0 +1,60 @@
+---
+title: blog
+---
+
+<html>
+<head>
+    <title>Sebastian Bruch</title>
+    <meta charset='UTF-8'>
+    <meta content='width=device-width, initial-scale=1' name='viewport'/>
+    <meta name='author' content='Sebastian Bruch'>
+
+    <link rel='shortcut icon' href='/favicon.png?v=e' />
+    <link href='/css/blog.css' rel='stylesheet'/>
+
+    {% include mathjax.html %}
+</head>
+<body>
+  {% include nav.html %}
+
+  <div id='blog' class='wrap'>
+    <div class='front-matter'>
+    <div class='bylines'>
+    <div class='byline'>
+      {% assign categories =  site.posts | where: 'published', 'true' |
+      map: 'categories' | join: ','  | split: ',' | uniq %}
+      <p>Tags: 
+      {% for category in categories %}
+        <a href="{{site.baseurl}}/archive/#{{category|slugize}}">{{ category }}</a>
+	{% unless forloop.last %}|{% endunless %}
+      {% endfor %}
+      </p>
+    </div>
+    </div>
+    </div>
+
+  <div id='posts' class='section'>
+    {% for post in site.posts %}
+    <div class='post-row'>
+      <p class='post-title'>
+	<a href="{{ post.url }}">
+	  {% katexmm %}
+	  {{ post.title }}
+	  {% endkatexmm %}
+	</a>
+      </p>
+      <p class='post-date'>
+	{{ post.date | date_to_long_string }}
+      </p>
+    </div>
+    <p class='post-subtitle'>
+      {% katexmm %}
+      {{ post.subtitle }}
+      {% endkatexmm %}
+    </p>
+    <span class='hidden'>{{ forloop.index }}</span>
+  {% endfor %}
+</div>
+
+</body>
+</html>
