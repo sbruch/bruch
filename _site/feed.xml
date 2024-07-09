@@ -1,4 +1,53 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-07-08T14:58:20-04:00</updated><id>http://localhost:4000/feed.xml</id><author><name>Sebastian Bruch</name></author><entry><title type="html">Foundations of Vector Retrieval</title><link href="http://localhost:4000/blog/publications/2024/05/01/foundations-of-vector-retrieval/" rel="alternate" type="text/html" title="Foundations of Vector Retrieval" /><published>2024-05-01T00:00:00-04:00</published><updated>2024-05-01T00:00:00-04:00</updated><id>http://localhost:4000/blog/publications/2024/05/01/foundations-of-vector-retrieval</id><content type="html" xml:base="http://localhost:4000/blog/publications/2024/05/01/foundations-of-vector-retrieval/"><![CDATA[<p>When teaching a graduate course on retrieval algorithms,
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-07-09T08:19:18-04:00</updated><id>http://localhost:4000/feed.xml</id><author><name>Sebastian Bruch</name></author><entry><title type="html">Academic Service</title><link href="http://localhost:4000/blog/service/2024/07/01/academic-service/" rel="alternate" type="text/html" title="Academic Service" /><published>2024-07-01T00:00:00-04:00</published><updated>2024-07-01T00:00:00-04:00</updated><id>http://localhost:4000/blog/service/2024/07/01/academic-service</id><content type="html" xml:base="http://localhost:4000/blog/service/2024/07/01/academic-service/"><![CDATA[<ul>
+  <li>
+    <p>[2023-10 - 2026-10] I am serving as an Associate Editor on the ACM Transactions
+on Information Systems (TOIS) <a href="https://dl.acm.org/journal/tois/editorial-board">Editorial Board</a>.</p>
+  </li>
+  <li>
+    <p>[2022-10 - 2023-12] I co-edited the
+<a href="https://dl.acm.org/toc/tois/2024/42/5">Special Section on Efficiency in Neural Information Retrieval</a>
+for the ACM Transactions on Information Systems (TOIS) with Claudio Lucchese, Maria Maistro, and Franco Maria Nardini.</p>
+  </li>
+  <li>
+    <p>[2023-09] I gave a keynote talk at <a href="http://spire2023.isti.cnr.it/keynote-speakers/">SPIRE 2023</a> in Pisa, Italy.</p>
+  </li>
+  <li>
+    <p>[2023-07] I co-organized the second international workshop on Reaching Efficiency in Neural Information Retrieval
+(ReNeuIR) at SIGIR 2023 in Taipei, Taiwan, with Maria Maistro, Joel Mackenzie, and Franco Maria Nardini. (<a href="https://reneuir.org/">Workshop Website</a>)</p>
+  </li>
+  <li>
+    <p>[2023-02] I co-taught CM0638 on Learning with Massive Data at Università Ca’ Foscari in Venice, Italy in Spring 2023 with Prof. Claudio Lucchese.</p>
+  </li>
+  <li>
+    <p>[2022-07] I co-organized the first international workshop on Reaching Efficiency in Neural Information Retrieval (ReNeuIR)
+at SIGIR 2022 in Madrid, Spain, with Claudio Lucchese and Franco Maria Nardini. (<a href="https://reneuir.org/">Workshop Website</a>)</p>
+  </li>
+  <li>I have served on the Senior Program Committee for the following conferences:
+    <ul>
+      <li>Conference on Web Search and Data Mining (WSDM - Full Paper) 2022–2025</li>
+      <li>Conference on Knowledge Discovery and Data Mining (KDD) 2022</li>
+      <li>The Web Conference (WWW - Search Track) 2023</li>
+    </ul>
+  </li>
+  <li>I have served on the Program Committee for the following conferences:
+    <ul>
+      <li>Neural Information Processing Systems (NeurIPS) 2024</li>
+      <li>European Conference on Information Retrieval (ECIR - Full Paper Track)
+2024</li>
+      <li>European Conference on Information Retrieval (ECIR - Short Paper Track)
+2023</li>
+      <li>Conference on Web Search and Data Mining (WSDM - Full Paper) 2020–2021</li>
+      <li>Conference on Web Search and Data Mining (WSDM - Tutorials) 2021</li>
+      <li>Conference on Research and Development in Information Retrieval (SIGIR -
+Full Paper Track) 2019–2023</li>
+      <li>Conference on Research and Development in Information Retrieval (SIGIR -
+Short Paper Track) 2019–2023</li>
+      <li>The Web Conference (WWW - Search Track) 2020–2022</li>
+      <li>Conference on Knowledge Discovery and Data Mining (KDD - Research Track)
+2020–2021</li>
+    </ul>
+  </li>
+</ul>]]></content><author><name>Sebastian Bruch</name></author><category term="[&quot;Service&quot;]" /><summary type="html"><![CDATA[[2023-10 - 2026-10] I am serving as an Associate Editor on the ACM Transactions on Information Systems (TOIS) Editorial Board.]]></summary></entry><entry><title type="html">Foundations of Vector Retrieval</title><link href="http://localhost:4000/blog/publications/2024/05/01/foundations-of-vector-retrieval/" rel="alternate" type="text/html" title="Foundations of Vector Retrieval" /><published>2024-05-01T00:00:00-04:00</published><updated>2024-05-01T00:00:00-04:00</updated><id>http://localhost:4000/blog/publications/2024/05/01/foundations-of-vector-retrieval</id><content type="html" xml:base="http://localhost:4000/blog/publications/2024/05/01/foundations-of-vector-retrieval/"><![CDATA[<p>When teaching a graduate course on retrieval algorithms,
 it occurred to me that there was no single resource that covered
 the foundations of vector retrieval or a treatise that dealt with the fascinating
 literature on nearest neighbor search and all the beautiful theory behind it.</p>
