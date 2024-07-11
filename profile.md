@@ -1,12 +1,17 @@
 ---
-title: Academic Service
-subtitle: "List of academic activities."
+title: Profile
 layout: default
-date: 2024-07-01
-keywords: service
-published: true
-category: [Service]
 ---
+
+**Bio**: I obtained my Ph.D. in Computer Science from the University of Maryland
+at College Park, under the supervision of Jimmy Lin---who is now at the University
+of Waterloo. My research has centered around probabilistic data structures and approximate algorithms
+for retrieval, and efficient and effective algorithms for learning-to-rank.
+I'm the author of "Foundations of Vector Retrieval" and am presently serving as an
+Associate Editor for the ACM TOIS journal.
+
+
+**Academic Service**:
 
 + [2023-10 - 2026-10] I am serving as an Associate Editor on the ACM Transactions
 on Information Systems (TOIS) [Editorial Board](https://dl.acm.org/journal/tois/editorial-board).

@@ -1,8 +1,9 @@
 <div class='nav'>
     <ul class='wrap'>
         <li><a href='/'>Home</a></li>
-        <!-- li><a href='/blog'>Blog</a></li-->
-	{%- for platform in site.sidebar %}
+        <li><a href='/profile'>Profile</a></li>
+        <li><a href='/blog'>Blog</a></li>
+	    {%- for platform in site.sidebar %}
           <li><a href="{{ platform.link }}">{{ platform.icon }}&nbsp;{{ platform.name }}</a></li>
         {%- endfor %}
     </ul>
