@@ -103,7 +103,6 @@ independently into a vector space, like in Figure 1.</p>
 <div style="text-align: center;"><i>
 Figure 1. A model that embeds text into a dense vector space.
 The individual coordinates in this
-often  <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="script">O</mi><mo stretchy="false">(</mo><mn>100</mn><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex"> \mathcal{O}(100)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathcal" style="margin-right:0.02778em;">O</span></span><span class="mopen">(</span><span class="mord">1</span><span class="mord">0</span><span class="mord">0</span><span class="mclose">)</span></span></span></span>-dimensional
 vector space aren't typically meaningful on their own.
 </i></div>
 
@@ -116,8 +115,7 @@ sparse embeddings. See Figure 2.</p>
 <p><img src="/assets/figures/seismic/sparse-embedding.png" alt="" width="100%" /></p>
 <div style="text-align: center;"><i>
 Figure 2. A model that embeds text into a sparse vector space.
-The output space has  <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="script">O</mi><mo stretchy="false">(</mo><mn>1000</mn><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">\mathcal{O}(1000)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathcal" style="margin-right:0.02778em;">O</span></span><span class="mopen">(</span><span class="mord">1</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mclose">)</span></span></span></span>  to
- <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="script">O</mi><mo stretchy="false">(</mo><mn>10</mn><mo separator="true" lspace="0em" rspace="0em">,</mo><mn>000</mn><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">\mathcal{O}(10{,}000)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathcal" style="margin-right:0.02778em;">O</span></span><span class="mopen">(</span><span class="mord">1</span><span class="mord">0</span><span class="mord"><span class="mpunct">,</span></span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mclose">)</span></span></span></span>  (or more!) dimensions.
+The output space has thousands to tens of thousands or more dimensions.
 Each dimension represents a term in some dictionary (e.g., the English vocabulary),
 and the weights signal the semantic "importance" or relevance of the terms to the
 information contained in the input.
