@@ -10,6 +10,11 @@ for retrieval, and efficient and effective algorithms for learning-to-rank.
 I'm the author of "Foundations of Vector Retrieval" and am presently serving as an
 Associate Editor for the ACM TOIS journal.
 
+**Philosophy**: "Man muss noch Chaos in sich haben,
+um einen tanzenden Stern gebären zu können."
+(Translation: You must have chaos within you to give
+birth to a dancing star.) --Friedrich Nietzsche
+
 
 **Academic Service**:
 
