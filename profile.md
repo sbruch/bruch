@@ -15,8 +15,21 @@ um einen tanzenden Stern gebären zu können."
 (Translation: You must have chaos within you to give
 birth to a dancing star.) --Friedrich Nietzsche
 
+**Awards and Distinctions**
+* [2024] **Best Paper Runner-Up Award** at the 47th Annual International ACM SIGIR
+  Conference on Research and Development in Information Retrieval (SIGIR)
+* [2024] Outstanding Program Committee Member at the 46th European Conference on 
+  Information Retrieval (ECIR)
+* [2022] Program Committee Member Honorable Mention at the 31st ACM Web Conference (WWW)
+* [2021] Outstanding Program Committee Member at the 14th ACM International
+  Conference on Web Search and Data Mining (WSDM)
+* [2020] Outstanding Program Committee Member at the 13th ACM
+  International Conference on Web Search and Data Mining (WSDM)
+* [2019] **Best Short Paper Award** at the 5th Annual ACM SIGIR International
+  Conference on the Theory of Information Retrieval (ICTIR)
 
-**Academic Service**:
+
+**Academic Activities**:
 
 + [2023-10 - 2026-10] I am serving as an Associate Editor on the ACM Transactions
 on Information Systems (TOIS) [Editorial Board](https://dl.acm.org/journal/tois/editorial-board).
@@ -35,12 +48,12 @@ for the ACM Transactions on Information Systems (TOIS) with Claudio Lucchese, Ma
 + [2022-07] I co-organized the first international workshop on Reaching Efficiency in Neural Information Retrieval (ReNeuIR)
 at SIGIR 2022 in Madrid, Spain, with Claudio Lucchese and Franco Maria Nardini. ([Workshop Website](https://reneuir.org/))
 
-+ I have served on the Senior Program Committee for the following conferences:
++ I have served on the Senior Program Committee or Meta Reviewer for the following conferences:
   + Conference on Web Search and Data Mining (WSDM - Full Paper) 2022–2025
   + Conference on Knowledge Discovery and Data Mining (KDD) 2022
   + The Web Conference (WWW - Search Track) 2023
 
-+ I have served on the Program Committee for the following conferences:
++ I have served on the Program Committee or as Reviewer for the following conferences:
   + Neural Information Processing Systems (NeurIPS) 2024
   + European Conference on Information Retrieval (ECIR - Full Paper Track)
     2024
