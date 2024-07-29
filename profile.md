@@ -3,12 +3,16 @@ title: Profile
 layout: default
 ---
 
+<div class="callout-orange" markdown="1">
+<div class="with-margin" markdown="1">
 **Bio**: I obtained my Ph.D. in Computer Science from the University of Maryland
 at College Park, under the supervision of Jimmy Lin---who is now at the University
 of Waterloo. My research has centered around probabilistic data structures and approximate algorithms
 for retrieval, and efficient and effective algorithms for learning-to-rank.
 I'm the author of "Foundations of Vector Retrieval" and am presently serving as an
 Associate Editor for the ACM TOIS journal.
+</div>
+</div>
 
 **Philosophy**: "Man muss noch Chaos in sich haben,
 um einen tanzenden Stern gebären zu können."

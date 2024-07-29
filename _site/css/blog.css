@@ -212,3 +212,37 @@ hr {
     margin: 0 7px;
   }
 }
+
+.callout-blue {
+  background-color: #bae1ff;
+  display:flex;
+}
+
+.callout-red {
+  background-color: #ffb3ba;
+  display:flex;
+}
+
+.callout-green {
+  background-color: #baffc9;
+  display:flex;
+}
+
+.callout-yellow {
+  background-color: #ffffba;
+  display:flex;
+}
+
+.callout-orange {
+  background-color: #ffdfba;
+  display:flex;
+}
+
+.callout-gray {
+  background-color: #cfcfc4;
+  display:flex;
+}
+
+.with-margin {
+  margin: 20px;
+}
