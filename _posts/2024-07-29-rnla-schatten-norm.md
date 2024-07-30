@@ -77,7 +77,7 @@ We want to obtain, with probability at least $1 - \delta$,
 a $(1+\epsilon)$-approximation of $\lVert A \rVert_p$
 for some valid choices of $\delta$ and $\epsilon$.
 In other words, we want to find a quantity $X$ such that:
-$$\mathbb{P}\Big[ -(1+ \epsilon) \lVert A \rVert_p^p \leq X
+$$\mathbb{P}\Big[ (1 - \epsilon) \lVert A \rVert_p^p \leq X
    \leq (1+ \epsilon) \lVert A \rVert_p^p \Big] \geq 1 - \delta.$$
 Also, we'll just focus on $\lVert A \rVert_p^p$, rather than $\lVert A \rVert_p$
 because it makes the math less cluttered.
