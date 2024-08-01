@@ -20,7 +20,7 @@ um einen tanzenden Stern gebären zu können."
 birth to a dancing star.) --Friedrich Nietzsche
 
 **Awards and Distinctions**
-* [2024] **Best Paper Runner-Up Award** at the 47th Annual International ACM SIGIR
+* [2024] **[Best Paper Runner-Up Award](/assets/figures/certificates/2024%20SIGIR%20Best%20Paper%20Award.pdf)** at the 47th Annual International ACM SIGIR
   Conference on Research and Development in Information Retrieval (SIGIR)
 * [2024] Outstanding Program Committee Member at the 46th European Conference on 
   Information Retrieval (ECIR)
@@ -29,7 +29,7 @@ birth to a dancing star.) --Friedrich Nietzsche
   Conference on Web Search and Data Mining (WSDM)
 * [2020] Outstanding Program Committee Member at the 13th ACM
   International Conference on Web Search and Data Mining (WSDM)
-* [2019] **Best Short Paper Award** at the 5th Annual ACM SIGIR International
+* [2019] **[Best Short Paper Award](/assets/figures/certificates/2019%20ICTIR%20Best%20Paper%20Award.pdf)** at the 5th Annual ACM SIGIR International
   Conference on the Theory of Information Retrieval (ICTIR)
 
 
