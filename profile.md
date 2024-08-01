@@ -33,7 +33,7 @@ birth to a dancing star.) --Friedrich Nietzsche
   Conference on the Theory of Information Retrieval (ICTIR)
 
 
-**Academic Activities**:
+**Academic Activities**
 
 + [2023-10 - 2026-10] I am serving as an Associate Editor on the ACM Transactions
 on Information Systems (TOIS) [Editorial Board](https://dl.acm.org/journal/tois/editorial-board).
