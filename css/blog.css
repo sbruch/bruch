@@ -243,6 +243,11 @@ hr {
   display:flex;
 }
 
+.callout-purple {
+  background-color: #C3B1E1;
+  display:flex;
+}
+
 .with-margin {
   margin: 20px;
 }
