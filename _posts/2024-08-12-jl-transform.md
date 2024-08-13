@@ -110,7 +110,7 @@ Let $S=\frac{1}{\sqrt{k}}R \in \mathbb{R}^{k \times n}$ where the entries of $R$
 
 <br>
 
-<div class="callout-purple" markdown="1">
+<div class="callout-gray" markdown="1">
 <div class="with-margin" markdown="1">
 **Proof**: First consider the case of $u \in \mathbb{S}^{n-1}$. Notice that $Su$ is a $k$-dimensional Gaussian random vector whose entries are distributed as $\mathcal{N}(0, 1/k)$. That implies that $\lVert Su \rVert_2^2$ is distributed as $X/k$ where $X$ is a $\chi^2$ random variable with $k$ degrees of freedom. We can then apply known tail bounds (c.f., Chapter 2 of {% cite Wainwright_2019 %}) for a $\chi^2$ random variable with $k$ degrees of freedom, such as:
 
@@ -150,7 +150,7 @@ Let $S=\frac{1}{\sqrt{k}}R \in \mathbb{R}^{k \times n}$ where the entries of $R$
 
 <br>
 
-<div class="callout-purple" markdown="1">
+<div class="callout-gray" markdown="1">
 <div class="with-margin" markdown="1">
 **Proof**: As in the previous proof, it is enough to consider points on the unit sphere. As before, we need to argue about the concentration of $\lVert Su \rVert_2^2$ around its mean, which turns out to be $\lVert u \rVert_2^2=1$:
 
