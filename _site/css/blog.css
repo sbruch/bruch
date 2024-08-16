@@ -214,36 +214,57 @@ hr {
 }
 
 .callout-blue {
+  margin-bottom: 25px;
+  margin-top: 25px;
+  border-radius: 25px;
   background-color: #bae1ff;
   display:flex;
 }
 
 .callout-red {
+  margin-bottom: 25px;
+  margin-top: 25px;
+  border-radius: 25px;
   background-color: #ffb3ba;
   display:flex;
 }
 
 .callout-green {
+  margin-bottom: 25px;
+  margin-top: 25px;
+  border-radius: 25px;
   background-color: #baffc9;
   display:flex;
 }
 
 .callout-yellow {
+  margin-bottom: 25px;
+  margin-top: 25px;
+  border-radius: 25px;
   background-color: #ffffba;
   display:flex;
 }
 
 .callout-orange {
+  margin-bottom: 25px;
+  margin-top: 25px;
+  border-radius: 25px;
   background-color: #ffdfba;
   display:flex;
 }
 
 .callout-gray {
+  margin-bottom: 25px;
+  margin-top: 25px;
+  border-radius: 25px;
   background-color: #cfcfc4;
   display:flex;
 }
 
 .callout-purple {
+  margin-bottom: 25px;
+  margin-top: 25px;
+  border-radius: 25px;
   background-color: #c3b1e1;
   display:flex;
 }
