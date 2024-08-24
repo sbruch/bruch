@@ -112,7 +112,7 @@ Let $S=\frac{1}{\sqrt{k}}R \in \mathbb{R}^{k \times n}$ where the entries of $R$
 
 <div class="callout-gray" markdown="1">
 <div class="with-margin" markdown="1">
-**Proof**: First consider the case of $u \in \mathbb{S}^{n-1}$. Notice that $Su$ is a $k$-dimensional Gaussian random vector whose entries are distributed as $\mathcal{N}(0, 1/k)$. That implies that $\lVert Su \rVert_2^2$ is distributed as $X/k$ where $X$ is a $\chi^2$ random variable with $k$ degrees of freedom. We can then apply known tail bounds (c.f., Chapter 2 of {% cite Wainwright_2019 %}) for a $\chi^2$ random variable with $k$ degrees of freedom, such as:
+**Proof**: First consider the case of $u \in \mathbb{S}^{n-1}$. Notice that $Su$ is a $k$-dimensional Gaussian random vector whose entries are distributed as $\mathcal{N}(0, 1/k)$. That implies that $\lVert Su \rVert_2^2$ is distributed as $X/k$ where $X$ is a $\chi^2$ random variable with $k$ degrees of freedom. We can then apply [known tail bounds for a $\chi^2$ random variable](/blog/concentration/2024/08/23/subexponential-rvs/#example-sub-exponential-variables) with $k$ degrees of freedom, such as:
 
 $$
 \mathbb{P} \Big[ \big\lvert \frac{X}{k} - 1 \big\rvert \geq \epsilon \Big] \leq 2\exp(-\frac{k\epsilon^2}{8}), \tag{5}
