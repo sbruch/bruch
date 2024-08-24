@@ -19,7 +19,7 @@ $$
 \mathbb{E}[e^{\lambda (X - \mu)}] \leq e^{\lambda^2 \sigma^2/2} \quad \forall \; \lambda \in \mathbb{R}. \tag{1}
 $$
 
-That proved useful because, if $X$ is sub-Gaussian, then we showed that the tail of its distribution is dominated by a Gaussian random variable with parameters $\mu$ and $\sigma^2$. In particular, we are able to apply the Chernoff bound to sub-Gaussian random variables and derive Hoeffding inequality-type bounds on the tail distribution.
+That proved useful because, if $X$ is sub-Gaussian, then we showed that the tail of its distribution is dominated by a Gaussian random variable's with parameters $\mu$ and $\sigma^2$. In particular, we are able to apply the Chernoff bound to sub-Gaussian random variables and derive Hoeffding inequality-type bounds on the tail distribution.
 
 
 
@@ -33,13 +33,71 @@ A random variable $X$ with mean $\mu$ for which inequality (2) holds is said to 
 
 
 
-Before we continue, it's worth mentioning that sub-exponentialness is preserved under summation of independent random variables, just as sub-Gaussiannes was. In other words, if we have $n$ sub-exponential random variables $X_i$'s with parameters $(\nu_i, b_i)$, then their sum $X=\sum_i X_i$ is sub-exponential:
+Before we continue, it's worth mentioning that sub-exponentialness is preserved under summation of independent random variables, just as sub-Gaussiannes is. In other words, if we have $n$ sub-exponential random variables $X_i$'s with parameters $(\nu_i, b_i)$, then their sum $X=\sum_i X_i$ is sub-exponential:
 
 $$
 \mathbb{E}[e^{\lambda (X - \mathbb{E}[X])}] = \mathbb{E}[\prod_i e^{\lambda (X_i - \mu_i)}] = \prod_i \mathbb{E}[e^{\lambda (X_i - \mu_i)}] \leq \prod_i e^{\lambda^2\nu_i^2/2} = e^{\lambda^2 \sum_i \nu_i^2/2},
 $$
 
 which is valid when $\lvert \lambda \rvert \leq 1/\max_i b_i$. So its parameters are $((\sum_i \nu_i^2)^{-1/2}, \max_i b_i)$.
+
+#### Equivalent Definitions
+
+There are other ways of characterizing a sub-exponential random variable that are equivalent to the definition in (2). For example, if the moment generating function of $X$ is finite for small values of $\lambda$, then $X$ is indeed a sub-exponential variable! This, and other definitions, are presented in the result below.
+
+
+<div class="callout-yellow" markdown="1">
+<div class="with-margin" markdown="1">
+The following definitions are equivalent for a centered random variable $X$:
+
+i. There exist constants $\nu$ and $b$ such that inequality (2) holds.
+
+ii. There exists a constant $c_0$ such that $\mathbb{E}[e^{\lambda X}]$ is finite for $\lvert \lambda \rvert \leq c_0$.
+
+iii. There exist constants $c_1$ and $c_2$ such that $\mathbb{P}[\lvert X \rvert \geq t] \leq c_1 e^{-c_2t}$ for all $t > 0$.
+
+iv. The quantity $\sup_{\lambda \geq 2}\Big( \frac{\mathbb{E}[X^k]}{k!} \Big)^{1/k}$ is finite.
+</div>
+</div>
+
+<div class="callout-gray" markdown="1">
+<div class="with-margin" markdown="1">
+**Proof**. (i) $\Leftrightarrow$ (ii) is straightforward.
+
+
+
+(ii) $\Rightarrow$ (iii): Applying the Chernoff bound to $X$ gives:
+
+$$
+\mathbb{P}[X \geq t] \leq \frac{\mathbb{E}[e^{\lambda X}]}{e^{\lambda t}} \Bigg\rvert_{\lambda = c_0/2} = \mathbb{E}[e^{c_0 X/2}] e^{-c_0 t/2}.
+$$
+
+So setting $c_1 = \mathbb{E}[e^{c_0 X/2}] + \mathbb{E}[e^{-c_0 X/2}]$ and $c_2=c_0/2$ gives the desired result.
+
+
+
+(iii) $\Rightarrow$ (ii): We start from the definition of expectation of a positive random variable, for a positive $\lambda$:
+
+$$
+\begin{aligned}
+\mathbb{E}[e^{\lambda \lvert X \rvert}] &= \int_0^\infty \mathbb{P[e^{ \lambda \lvert X \rvert} \geq t]} \; dt \leq 1 + \int_1^{\infty} \mathbb{P}[\lvert X \rvert \geq \frac{\log t}{\lambda}] \; dt \\
+&\leq 1 + c_1 \int_1^\infty e^{-c_2 \log t / \lambda} \; dt = 1 + c_1 \int_1^\infty t^{-c_2 / \lambda} \; dt \leq 1 + c_1,
+\end{aligned}
+$$
+
+when $c_2 / \lambda \geq 2$. Because $\mathbb{E}[e^{-\lambda X}] \leq \mathbb{E}[e^{\lvert \lambda \rvert \lvert X \rvert}]$ and $\mathbb{E}[e^{\lambda X}] \leq \mathbb{E}[e^{\lvert \lambda \rvert \lvert X \rvert}]$, we can conclude that $\mathbb{E}[e^{\lambda X}]$ is finite for $\lvert \lambda \rvert \leq c_2/2$.
+
+
+
+(ii) $\Leftrightarrow$ (iv): We can argue using the power series expansion of the moment generating function:
+
+$$
+\mathbb{E}[e^{\lambda X}] = 1 + \sum_{k=2}^\infty \frac{\mathbb{E}[X^k]}{k!} \lambda^k.
+$$
+
+Notice that the inverse of $\limsup_{\lambda \geq 2} \Big\lvert \frac{\mathbb{E}[X^k]}{k!} \Big\rvert^{1/k}$is the convergence radius of the series. As a result, if (ii) holds, then the series must converge, implying that the quantity in (iv) must be finite. If (iv) holds, then the series must converge, implying that the quantity in (ii) must be finite for within the convergence radius.
+</div>
+</div>
 
 #### Bernstein's Condition
 
