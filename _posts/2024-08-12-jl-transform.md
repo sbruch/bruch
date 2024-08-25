@@ -45,7 +45,7 @@ That's where the seminal result due to Johnson and Lindenstrauss comes into the 
 
 <div class="callout-yellow" markdown="1">
 <div class="with-margin" markdown="1">
-**Distributional Johnson-Lindenstrauss (JL) Lemma**. For every positive $n$ and $\epsilon, \delta \in (0, 1)$, there is a distribution $\Pi$ over linear maps in $\mathbb{R}^{k \times n}$ with $k = \Theta(\epsilon^{-2} \log \frac{1}{\delta})$, such that, for all $u \in \mathbb{R}^n$:
+**Distributional Johnson-Lindenstrauss (JL) Lemma**. For every positive $n$ and $\epsilon, \delta \in (0, 1)$, there is a distribution $\Pi$ over linear maps in $\mathbb{R}^{k \times n}$ with $k = \Theta(\epsilon^{-2} \log \frac{1}{\delta})$, such that, for any $u \in \mathbb{R}^n$:
 
 $$
 \mathbb{P}_{S \sim \Pi}\big[ \lVert Su \rVert_2^2 = (1 \pm \epsilon) \lVert u \rVert_2^2 \big] \geq 1 - \delta. \tag{3}

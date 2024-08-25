@@ -52,12 +52,13 @@ for the ACM Transactions on Information Systems (TOIS) with Claudio Lucchese, Ma
 + [2022-07] I co-organized the first international workshop on Reaching Efficiency in Neural Information Retrieval (ReNeuIR)
 at SIGIR 2022 in Madrid, Spain, with Claudio Lucchese and Franco Maria Nardini. ([Workshop Website](https://reneuir.org/))
 
-+ I have served on the Senior Program Committee or Meta Reviewer for the following conferences:
++ I have served on the Senior Program Committee or as Meta Reviewer for the following conferences:
   + Conference on Web Search and Data Mining (WSDM - Full Paper) 2022–2025
   + Conference on Knowledge Discovery and Data Mining (KDD) 2022
   + The Web Conference (WWW - Search Track) 2023
 
 + I have served on the Program Committee or as Reviewer for the following conferences:
+  + International Conference on Learning Representations (ICLR) 2025
   + Neural Information Processing Systems (NeurIPS) 2024
   + European Conference on Information Retrieval (ECIR - Full Paper Track)
     2024
