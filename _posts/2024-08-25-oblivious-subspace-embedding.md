@@ -1,6 +1,6 @@
 ---
 title: "Oblivious Subspace Embedding"
-subtitle: "In an earlier post, we saw how <a href='/blog/randomized numerical linear algebra/2024/08/12/jl-transform'>the Johnson-Lindenstrauss Transform</a> can reduce the dimensionality of a set of m points while preserving their pairwise distances. That's neat, but what if we need to preserve the pairwise distance between all (infinitely many) points in an entire subspace. This post introduces the concept of subspace embedding, which answers that question."
+subtitle: "In an earlier post, we saw how <a href='/blog/randomized numerical linear algebra/2024/08/12/jl-transform'>the Johnson-Lindenstrauss Transform</a> can reduce the dimensionality of a set of m points while preserving their pairwise distances. That's neat, but what if we need to preserve the pairwise distance between all (infinitely many) points in an entire subspace? This post introduces the concept of subspace embedding, which answers that question."
 layout: default
 date: 2024-08-25
 keywords: rnla
