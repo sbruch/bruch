@@ -189,7 +189,7 @@ There is even a faster-to-apply family of JL transformations that's simply calle
 
 <div class="callout-yellow" markdown="1">
 <div class="with-margin" markdown="1">
-Let $S = \frac{1}{\sqrt{k}} PHD$ where: $D$ is a $n\times n$ diagonal matrix whose entries are Rademacher random variables; $H$ is an $n \times n$ matrix with the property that $H^\top H = nI$ and $\max \lvert H_{ij} \rvert \leq 1$; and $P$ is a $k \times n$ matrix where each row is $0$ everywhere except in one uniformly random column. Then $S$ has the JL property with $k = \Omega(\epsilon^{-2} \log (1/\delta) \log (n/\delta))$.
+Let $S = \frac{1}{\sqrt{k}} PHD$ where: $D$ is a $n\times n$ diagonal matrix whose entries are Rademacher random variables; $H$ is an $n \times n$ matrix with the property that $H^\top H = nI$ and $\max \lvert H_{ij} \rvert \leq 1$; and $P$ is a $k \times n$ matrix where each row is $0$ everywhere except in one uniformly random column. Then $S$ has the JL property with $k = \Omega(\epsilon^{-2} n \log (1/\delta) \log (n/\delta))$.
 </div>
 </div>
 
@@ -199,41 +199,41 @@ In general, a matrix $H$ with that property is called an *unnormalized bounded o
 
 <div class="callout-gray" markdown="1">
 <div class="with-margin" markdown="1">
-**Proof**: As before, we do this analysis for a vector $u \in \mathbb{R}^n$ with $\lVert u \rVert_2 = 1$. We will rewrite $S=\sqrt{\frac{n}{k}} P (\frac{1}{\sqrt{n}} H)D$.
+**Proof**: As before, we do this analysis for a vector $u \in \mathbb{R}^n$ with $\lVert u \rVert_2 = 1$.
 
 
 
-**Part I**: First, consider $Y=\frac{1}{\sqrt{n}}HD$. We can immediately notice a few things about the product $v = Yu$. First, that its $\ell_2$ norm is simply:
+**Part I**: First, consider $Y=HD$. We can immediately notice a few things about the product $v = Yu$. First, that its $\ell_2$ norm is simply:
 
 $$
-\lVert v \rVert_2^2 = \lVert Yu \rVert_2^2 = \frac{1}{n} u^\top D \underbrace{H^\top H}_{nI} D u = \lVert u \rVert_2^2 = 1.
+\lVert v \rVert_2^2 = \lVert Yu \rVert_2^2 = u^\top D \underbrace{H^\top H}_{nI} D u = n\lVert u \rVert_2^2 = n.
 $$
 
-Second, its $i$-th entry is: $v_i = \sum_{j} \frac{1}{\sqrt{n}} H_{ij} D_{jj} u_j$. By following the same method to prove that a Rademacher random variable is sub-Gaussian, we can show that each term $\frac{1}{\sqrt{n}} H_{ij} D_{jj} u_j$ is a [sub-Gaussian random variable](https://app.capacities.io/76b081be-e2ae-4a31-b1ee-da562efc3cf2/3f6a9c91-bc30-43b1-b34a-88a5fff1ea83) with constant $\frac{1}{\sqrt{n}} H_{ij} u_j$. As a result, $v_i$, being the sum of $n$ sub-Gaussian random variables, is itself sub-Gaussian with constant $\sigma^2 = \frac{1}{n} \sum_j H_{ij}^2 u_j^2 \leq \frac{1}{n} \lVert u \rVert_2^2 = 1/n$.
+Second, its $i$-th entry is: $v_i = \sum_{j} H_{ij} D_{jj} u_j$. By following the same method to prove that a Rademacher random variable is sub-Gaussian, we can show that each term $H_{ij} D_{jj} u_j$ is a [sub-Gaussian random variable](https://app.capacities.io/76b081be-e2ae-4a31-b1ee-da562efc3cf2/3f6a9c91-bc30-43b1-b34a-88a5fff1ea83) with constant $H_{ij} u_j$. As a result, $v_i$, being the sum of $n$ sub-Gaussian random variables, is itself sub-Gaussian with constant $\sigma^2 = \sum_j H_{ij}^2 u_j^2 \leq \lVert u \rVert_2^2 = 1$.
 
 Considering $v_i$'s are sub-Gaussian with mean $0$, we know the following Chernoff bound holds:
 
 $$
-\mathbb{P}[\lvert v_i \rvert \geq t] \leq 2 \exp \Big( -\frac{t^2}{2\sigma^2} \Big) \leq 2 e^{-nt^2/2},
+\mathbb{P}[\lvert v_i \rvert \geq t] \leq 2 \exp \Big( -\frac{t^2}{2\sigma^2} \Big) \leq 2 e^{-t^2/2},
 $$
 
-so that if $t=\sqrt{2\log (4n / \delta) / n}$, then $\mathbb{P}[\lvert v_i \rvert \geq t] \leq \delta/2n$. By the application of the union bound, we can deduce the following, which is known as the *flattening lemma*:
+so that if $t=\sqrt{2\log (4n / \delta)}$, then $\mathbb{P}[\lvert v_i \rvert \geq t] \leq \delta/2n$. By the application of the union bound, we can deduce the following, which is known as the *flattening lemma*:
 
 $$
 \mathbb{P}[\lVert v \rVert_\infty \geq t] \leq \frac{\delta}{2}.
 $$
 
-From here on, let's condition on the flattening lemma being true with probability $1 - \delta/2$. This also implies that, with probability at least $1 - \delta/2$, the $\ell_2$ norm of the $i$-th row of $HD$, $Y_i$, is bounded as $\lVert Y_i \rVert_2^2 \leq 2\log(4n/\delta)$.
+From here on, let's condition on the flattening lemma being true with probability $1 - \delta/2$. This also implies that, with probability at least $1 - \delta/2$, the $\ell_2$ norm of the $i$-th row of $HD$, $Y_i$, is bounded as $\lVert Y_i \rVert_2^2 \leq 2n\log(4n/\delta)$.
 
 
 
-**Part II**: Now, let's consider $\sqrt{\frac{n}{k}} Pv$. We have to show that the deviation of the $\ell_2$ norm of this product from the norm of $u$ is bounded. In other words, we want to assert that:
+**Part II**: Now, let's consider $\frac{1}{\sqrt{k}} Pv$. We have to show that the deviation of the $\ell_2$ norm of this product from the norm of $u$ is bounded. In other words, we want to assert that:
 
 $$
-\mathbb{P}\Bigg[\Big\lvert \lVert \sqrt{\frac{n}{k}} Pv\rVert_2^2 - 1 \Big\rvert \geq \epsilon \Bigg] \leq \delta. \tag{P1}
+\mathbb{P}\Bigg[\Big\lvert \lVert \frac{1}{\sqrt{k}} Pv\rVert_2^2 - 1 \Big\rvert \geq \epsilon \Bigg] \leq \delta. \tag{P1}
 $$
 
-Let $X=\lVert \sqrt{\frac{n}{k}}Pv \rVert_2^2$. This can be expressed as the sum of random variables $X_i$'s where $X_i = v_i^2 n/k$ for some uniformly random $i \in [n]$. As a result, $\mathbb{E}[X_i] = 1/k$ and therefore $\mathbb{E}[X] = \sum_{i=1}^k \mathbb{E}[X_i] = 1$.
+Let $X=\lVert \frac{1}{\sqrt{k}} Pv \rVert_2^2$. This can be expressed as the sum of random variables $X_i$'s where $X_i = v_i^2/k$ for some uniformly random $i \in [n]$. As a result, $\mathbb{E}[X_i] = 1/k$ and therefore $\mathbb{E}[X] = \sum_{i=1}^k \mathbb{E}[X_i] = 1$.
 
 
 
@@ -241,7 +241,7 @@ Let us now bound $\mathop{Var}[X_i]$. Notice that:
 
 $$
 \begin{aligned}
-\mathop{Var}[X_i] &\leq \mathbb{E}[X_i^2] = \frac{n^2}{k^2} \mathbb{E}[(u^\top (\frac{1}{\sqrt{n}}HD)_i^\top \frac{1}{\sqrt{n}}\underbrace{(HD)_i}_{Y_i} u)^2] \\
+\mathop{Var}[X_i] &\leq \mathbb{E}[X_i^2] = \frac{1}{k^2} \mathbb{E}[(u^\top (HD)_i^\top \underbrace{(HD)_i}_{Y_i} u)^2] \\
 &= \frac{1}{k^2} \mathbb{E}[u^\top Y_i^\top Y_i Y_i^\top Y_i u]
 \leq \frac{1}{k^2} \Big\lVert \mathbb{E}[Y_i^\top Y_i Y_i^\top Y_i] \Big\lVert_2,
 \end{aligned}
@@ -252,11 +252,11 @@ where $Y_i$ is the $i$-th row of $HD$, $\lVert \cdot \rVert_2$ is the operator n
 $$
 \begin{aligned}
 \mathbb{E}[Y_i^\top Y_i Y_i^\top Y_i] &= \sum_{i=1}^n \frac{1}{n} Y_i^\top (Y_iY_i^\top) Y_i = \sum \frac{1}{n} Y_i^\top Y_i \lVert Y_i \rVert_2^2 \\
-&\leq 2 \log(\frac{4n}{\delta}) \sum \frac{1}{n} Y_i^\top Y_i = 2 \log(\frac{4n}{\delta}) I.
+&\leq 2 n \log(\frac{4n}{\delta}) \sum \frac{1}{n} Y_i^\top Y_i = 2 n\log(\frac{4n}{\delta}) I.
 \end{aligned}
 $$
 
-As a result, $\mathop{Var}[X_i] \leq 2 \log(4n/\delta) / k^2$. The variance of $X$ is therefore bounded by $2\log(4n/\delta)/k$.
+As a result, $\mathop{Var}[X_i] \leq 2n \log(4n/\delta) / k^2$. The variance of $X$ is therefore bounded by $2n\log(4n/\delta)/k$.
 
 
 
@@ -265,16 +265,16 @@ Conditioned on the flattening lemma, $X_i \leq 2 \log (4n / \delta)/k = \tau$, m
 $$
 \begin{aligned}
 \mathbb{P}\Big[ \big\lvert X - 1 \big\rvert \geq \epsilon \Big] &\leq 2\exp(-\frac{\epsilon^2}{2(\mathop{Var}[X] + \tau \epsilon)}) \\
-&\leq 2 \exp \Big( - \frac{\epsilon^2}{2 \big( 2\log(4n/\delta)/k + 2\epsilon \log(4n/\delta)/k \big) } \Big) \\
-&=2 \exp(-\frac{k\epsilon^2}{4\log(4n/\delta) (1 + \epsilon)} ).
+&\leq 2 \exp \Big( - \frac{\epsilon^2}{2 \big( 2n\log(4n/\delta)/k + 2\epsilon \log(4n/\delta)/k \big) } \Big) \\
+&=2 \exp(-\frac{k\epsilon^2}{4\log(4n/\delta) (n + \epsilon)} ).
 \end{aligned}
 $$
 
-When $k = \Omega(\epsilon^{-2} \log(1/\delta) \log(n/\delta))$, the above probability is at most $\delta/2$.
+When $k = \Omega(\epsilon^{-2} n\log(1/\delta) \log(n/\delta))$, the above probability is at most $\delta/2$.
 
 
 
-**Part III**: We have thus far conditioned on the event $\mathcal{E}$ where $\lVert v \rVert_\infty \leq \sqrt{2 \log (4n/\delta)/n}$ with probability $1 - \delta/2$, and showed that inequality (P1) holds. We must now remove our condition:
+**Part III**: We have thus far conditioned on the event $\mathcal{E}$ where $\lVert v \rVert_\infty \leq \sqrt{2 \log (4n/\delta)}$ with probability $1 - \delta/2$, and showed that inequality (P1) holds. We must now remove our condition:
 
 $$
 \mathbb{P}[\mathcal{E}] \cdot \mathbb{P}\Bigg[ \Big\lvert \lVert \frac{1}{\sqrt{k}} Pv \lVert_2^2 - 1 \Big\rvert \leq \epsilon \; \Big\lvert \mathcal{E} \Bigg] \geq (1- \frac{\delta}{2})^2 \geq 1 - \delta.
