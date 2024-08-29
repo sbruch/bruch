@@ -39,7 +39,7 @@ $$
 \mathbb{E}[e^{\lambda (X - \mathbb{E}[X])}] = \mathbb{E}[\prod_i e^{\lambda (X_i - \mu_i)}] = \prod_i \mathbb{E}[e^{\lambda (X_i - \mu_i)}] \leq \prod_i e^{\lambda^2\nu_i^2/2} = e^{\lambda^2 \sum_i \nu_i^2/2},
 $$
 
-which is valid when $\lvert \lambda \rvert \leq 1/\max_i b_i$. So its parameters are $((\sum_i \nu_i^2)^{-1/2}, \max_i b_i)$.
+which is valid when $\lvert \lambda \rvert \leq 1/\max_i b_i$. So its parameters are $((\sum_i \nu_i^2)^{1/2}, \max_i b_i)$.
 
 #### Equivalent Definitions
 

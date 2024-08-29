@@ -87,7 +87,7 @@ $$
 \end{aligned}
 $$
 
-So, we have established that a JLT for the $1/2$-net over the unit sphere in the column space of $A$ is an $\ell_2$-subspace embedding for the column space of $A$. We know that $\lvert \mathcal{N} \rvert \leq 5^d$, so that $k = \Omega(\epsilon^{-2} \log (5^d/\delta)) = \Omega(\epsilon^{-2} (d + 1\log (1/\delta)))$ as desired.
+So, we have established that a JLT for the $1/2$-net over the unit sphere in the column space of $A$ is an $\ell_2$-subspace embedding for the column space of $A$. We know that $\lvert \mathcal{N} \rvert \leq 5^d$, so that $k = \Omega(\epsilon^{-2} \log (5^d/\delta)) = \Omega(\epsilon^{-2} (d + \log (1/\delta)))$ as desired.
 </div>
 </div>
 
