@@ -223,7 +223,7 @@ $$
 \mathbb{P}[\lVert v \rVert_\infty \geq t] \leq \frac{\delta}{2}.
 $$
 
-From here on, let's condition on the flattening lemma being true with probability $1 - \delta/2$. This also implies that, with probability at least $1 - \delta/2$, the $\ell_2$ norm of the $i$-th row of $HD$, $Y_i$, is bounded as $\lVert Y_i \rVert_2^2 \leq 2n\log(4n/\delta)$.
+From here on, let's condition on the flattening lemma being true with probability $1 - \delta/2$.
 
 
 
@@ -242,21 +242,15 @@ Let us now bound $\mathop{Var}[X_i]$. Notice that:
 $$
 \begin{aligned}
 \mathop{Var}[X_i] &\leq \mathbb{E}[X_i^2] = \frac{1}{k^2} \mathbb{E}[(u^\top (HD)_i^\top \underbrace{(HD)_i}_{Y_i} u)^2] \\
-&= \frac{1}{k^2} \mathbb{E}[u^\top Y_i^\top Y_i Y_i^\top Y_i u]
-\leq \frac{1}{k^2} \Big\lVert \mathbb{E}[Y_i^\top Y_i Y_i^\top Y_i] \Big\lVert_2,
+&= \frac{1}{k^2} \mathbb{E}[u^\top Y_i^\top Y_i Y_i^\top Y_i u] \\
+&= \frac{1}{k^2} \sum_{i=1}^n \frac{1}{n} u^\top Y_i^\top (Y_iY_i^\top) Y_i u \\
+&= \frac{1}{k^2} \sum \frac{1}{n} u^\top Y_i^\top Y_i u \lVert Y_i \rVert_2^2 \\
+&= \frac{1}{k^2} \sum \frac{1}{n} (Y_i u)^2 \lVert Y_i \rVert_2^2 \\
+&\leq \frac{2 \log(\frac{4n}{\delta})}{n k^2} \lVert Y \rVert_F = \frac{1}{k^2} 2n \log(\frac{4n}{d})
 \end{aligned}
 $$
 
-where $Y_i$ is the $i$-th row of $HD$, $\lVert \cdot \rVert_2$ is the operator norm, and the expectation is with respect to the choice of $i$. We can then write:
-
-$$
-\begin{aligned}
-\mathbb{E}[Y_i^\top Y_i Y_i^\top Y_i] &= \sum_{i=1}^n \frac{1}{n} Y_i^\top (Y_iY_i^\top) Y_i = \sum \frac{1}{n} Y_i^\top Y_i \lVert Y_i \rVert_2^2 \\
-&\leq 2 n \log(\frac{4n}{\delta}) \sum \frac{1}{n} Y_i^\top Y_i = 2 n\log(\frac{4n}{\delta}) I.
-\end{aligned}
-$$
-
-As a result, $\mathop{Var}[X_i] \leq 2n \log(4n/\delta) / k^2$. The variance of $X$ is therefore bounded by $2n\log(4n/\delta)/k$.
+The variance of $X$ is therefore bounded by $2n\log(4n/\delta)/k$.
 
 
 
