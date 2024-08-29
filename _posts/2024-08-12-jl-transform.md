@@ -209,7 +209,7 @@ $$
 \lVert v \rVert_2^2 = \lVert Yu \rVert_2^2 = u^\top D \underbrace{H^\top H}_{nI} D u = n\lVert u \rVert_2^2 = n.
 $$
 
-Second, its $i$-th entry is: $v_i = \sum_{j} H_{ij} D_{jj} u_j$. By following the same method to prove that a Rademacher random variable is sub-Gaussian, we can show that each term $H_{ij} D_{jj} u_j$ is a [sub-Gaussian random variable](https://app.capacities.io/76b081be-e2ae-4a31-b1ee-da562efc3cf2/3f6a9c91-bc30-43b1-b34a-88a5fff1ea83) with constant $H_{ij} u_j$. As a result, $v_i$, being the sum of $n$ sub-Gaussian random variables, is itself sub-Gaussian with constant $\sigma^2 = \sum_j H_{ij}^2 u_j^2 \leq \lVert u \rVert_2^2 = 1$.
+Second, its $i$-th entry is: $v_i = \sum_{j} H_{ij} D_{jj} u_j$. By following the same method to prove that a Rademacher random variable is sub-Gaussian, we can show that each term $H_{ij} D_{jj} u_j$ is a [sub-Gaussian random variable](/blog/concentration/2024/08/15/subgaussian-rvs/) with constant $H_{ij} u_j$. As a result, $v_i$, being the sum of $n$ sub-Gaussian random variables, is itself sub-Gaussian with constant $\sigma^2 = \sum_j H_{ij}^2 u_j^2 \leq \lVert u \rVert_2^2 = 1$.
 
 Considering $v_i$'s are sub-Gaussian with mean $0$, we know the following Chernoff bound holds:
 
