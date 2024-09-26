@@ -5,20 +5,22 @@ layout: default
 
 <div class="callout-orange" markdown="1">
 <div class="with-margin" markdown="1">
-**Bio**: I completed my Ph.D. in Computer Science at the University of Maryland, College Park in 2013.
-My research since has centered around probabilistic data structures and approximate algorithms for retrieval,
-efficient and effective algorithms for learning-to-rank, and stochastic ranking functions.
-I'm the author of "Foundations of Vector Retrieval" and the co-author of
-"Efficient and Effective Tree-based and Neural Learning to Rank."
+**Bio**: Sebastian Bruch completed his Ph.D. in Computer Science at the University of Maryland, College Park in 2013.
+He is fundamentally interested in exploring the utility of noise and uncertainty in producing order, efficiency, fairness,
+and other desirable properties in decision making processes. Concretely, his research centers around probabilistic
+data structures and approximate algorithms for retrieval; efficient and effective algorithms for learnt ranking functions;
+and stochastic ranking policies and decision making.
 
-My works have appeared in leading Information Systems journals
-including ACM TOIS, IEEE TKDE, and FnT in IR. I've also contributed to the proceedings
-of and served on the program committees of premier IR and data mining conferences including
-SIGIR, WSDM, SIGKDD, and the Web Conference. I'm presently serving as an
-Associate Editor for the ACM TOIS journal.
+Sebastian is the author of “Foundations of Vector Retrieval” and the co-author of
+“Efficient and Effective Tree-based and Neural Learning to Rank.”
+His published works have appeared in leading Information Systems journals including
+ACM TOIS, IEEE TKDE, and FnT in Information Retrieval (IR). He has also contributed to
+the proceedings of and served on the program committees of premier IR and data mining
+conferences including SIGIR, WSDM, SIGKDD, and the Web Conference.
 
-After nearly a decade in industry, I returned to academia in 2024 and am currently a
-Senior Research Scientist at the Northeastern University in Boston, MA, United States.
+After nearly a decade in industry, Sebastian returned to academia in 2024 and is currently
+a Senior Research Scientist at the Northeastern University in Boston, MA. He is additionally
+serving as an Associate Editor for the ACM TOIS journal.
 </div>
 </div>
 
