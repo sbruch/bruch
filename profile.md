@@ -68,7 +68,7 @@ for the ACM Transactions on Information Systems (TOIS) with Claudio Lucchese, Ma
     Full Paper Track) 2019–2023
   + Conference on Research and Development in Information Retrieval (SIGIR -
     Short Paper Track) 2019–2023
-  + The Web Conference (WWW - Search Track) 2020–2022
+  + The Web Conference (WWW - Search Track) 2020–2022, 2025
   + Conference on Knowledge Discovery and Data Mining (KDD - Research Track)
     2020–2021
 
