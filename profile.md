@@ -56,9 +56,8 @@ for the ACM Transactions on Information Systems (TOIS) with Claudio Lucchese, Ma
   + The Web Conference (WWW - Search Track) 2023
 
 + I served on the Program Committee or as Reviewer for the following conferences:
-  + International Conference on Machine Learning (ICML) 2025
   + International Conference on Learning Representations (ICLR) 2025
-  + Neural Information Processing Systems (NeurIPS) 2024
+  + Neural Information Processing Systems (NeurIPS) 2024–2025
   + European Conference on Information Retrieval (ECIR - Full Paper Track)
     2024
   + European Conference on Information Retrieval (ECIR - Short Paper Track)
